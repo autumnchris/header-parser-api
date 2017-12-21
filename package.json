@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/autumnchris/request-header-parser-api/issues"
   },
-  "homepage": "https://github.com/autumnchris/request-header-parser-api#readme"
+  "homepage": "https://github.com/autumnchris/request-header-parser-api#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
 }
