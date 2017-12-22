@@ -7,6 +7,15 @@ My project for the [Request Header Parser Microservice challenge](https://www.fr
 ## User Stories
 1. I can get the IP address, language, and operating system for my browser.
 
+## Built With
+* [Express.js](https://expressjs.com)
+* HTML
+* [Bootstrap](https://getbootstrap.com)
+
+## Demo
+
+View project demo at [https://autumnchris-header-parser-api.herokuapp.com](https://autumnchris-header-parser-api.herokuapp.com).
+
 ## Installation
 
 ```
