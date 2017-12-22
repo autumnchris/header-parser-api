@@ -6,3 +6,14 @@ My project for the [Request Header Parser Microservice challenge](https://www.fr
 
 ## User Stories
 1. I can get the IP address, language, and operating system for my browser.
+
+## Installation
+
+```
+git clone https://github.com/autumnchris/request-header-parser-api.git
+cd request-header-parser-api
+npm install
+npm start
+```
+
+Go to `http://localhost:3000`.
