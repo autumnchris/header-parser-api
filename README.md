@@ -19,10 +19,10 @@ View project demo at [https://autumnchris-header-parser-api.herokuapp.com](https
 ## Installation
 
 ```
-git clone https://github.com/autumnchris/header-parser-api.git
-cd header-parser-api
-npm install
-npm start
+$ git clone https://github.com/autumnchris/header-parser-api.git
+$ cd header-parser-api
+$ npm install
+$ npm start
 ```
 
 Go to `http://localhost:3000`.
