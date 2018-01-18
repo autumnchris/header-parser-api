@@ -1,9 +1,10 @@
+var path = require('path');
 var express = require('express');
 
 var app = express();
 var port = process.env.PORT || 3000;
 
-app.use(express.static('public'));
+app.use(express.static(path.join(__dirname, 'public')));
 
 app.get('/api/whoami', function(req, res) {
   var ip = req.headers['x-forwarded-for'];
@@ -15,6 +16,10 @@ app.get('/api/whoami', function(req, res) {
     language: language,
     OS: os
   });
+});
+
+app.use(function(req, res) {
+  res.send('404: Page not found', 404);
 });
 
 app.listen(port, console.log('Server is listening at port ' + port + '.'));
