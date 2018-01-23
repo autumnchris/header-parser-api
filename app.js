@@ -19,7 +19,7 @@ app.get('/api/whoami', function(req, res) {
 });
 
 app.use(function(req, res) {
-  res.send('404: Page not found', 404);
+  res.sendFile(path.join(__dirname, 'public', '404.html'), 404);
 });
 
 app.listen(port, console.log('Server is listening at port ' + port + '.'));
