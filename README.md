@@ -9,7 +9,7 @@ My project for the [Request Header Parser Microservice challenge](https://www.fr
 
 ## Built With
 * [Express.js](https://expressjs.com)
-* HTML
+* HTML5
 * [Bootstrap](https://getbootstrap.com)
 
 ## Demo
