@@ -1,25 +1,25 @@
-var path = require('path');
-var express = require('express');
+const path = require('path');
+const express = require('express');
 
-var app = express();
-var port = process.env.PORT || 3000;
+const app = express();
+const port = process.env.PORT || 3000;
 
 app.use(express.static(path.join(__dirname, 'public')));
 
-app.get('/api/whoami', function(req, res) {
-  var ip = req.headers['x-forwarded-for'];
-  var language = req.headers['accept-language'].split(',')[0];
-  var os = req.headers['user-agent'].split(/[\(\)]/)[1];
+app.get('/api/whoami', (req, res) => {
+  const IP = req.headers['x-forwarded-for'];
+  const language = req.headers['accept-language'].split(',')[0];
+  const OS = req.headers['user-agent'].split(/[\(\)]/)[1];
 
   res.json({
-    IP: ip,
-    language: language,
-    OS: os
+    IP,
+    language,
+    OS
   });
 });
 
-app.use(function(req, res) {
+app.use((req, res) => {
   res.sendFile(path.join(__dirname, 'public', '404.html'), 404);
 });
 
-app.listen(port, console.log('Server is listening at port ' + port + '.'));
+app.listen(port, console.log(`Server is listening at port ${port}.`));
