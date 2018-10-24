@@ -12,7 +12,7 @@ My project for the [Request Header Parser Microservice challenge](https://learn.
 
 ## Demo
 
-View project demo at [https://autumnchris-header-parser-api.herokuapp.com](https://autumnchris-header-parser-api.herokuapp.com).
+View project demo at [https://autumnchris-header-parser.herokuapp.com](https://autumnchris-header-parser.herokuapp.com).
 
 ## Installation
 
