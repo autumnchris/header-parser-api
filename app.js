@@ -3,10 +3,6 @@ const express = require('express');
 const app = express();
 const port = process.env.PORT || 3000;
 
-app.get('/', (req, res) => {
-  res.sendFile(`${__dirname}/views/index.html`);
-});
-
 app.use(express.static(`${__dirname}/public`));
 
 app.get('/api/whoami', (req, res) => {
@@ -18,7 +14,7 @@ app.get('/api/whoami', (req, res) => {
 });
 
 app.use((req, res) => {
-  res.sendFile(`${__dirname}/views/404.html`, 404);
+  res.status(404).sendFile(`${__dirname}/public/404.html`);
 });
 
 app.listen(port, console.log(`Server is listening at port ${port}.`));
