@@ -6,8 +6,8 @@ My project for the [Request Header Parser Microservice challenge](https://learn.
 
 ## Built With
 * [Express.js](https://expressjs.com)
+* [EJS](https://ejs.co)
 * CSS3
-* HTML5
 * [Google Fonts](https://fonts.google.com)
 
 ## Demo

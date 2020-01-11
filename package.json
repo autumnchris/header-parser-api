@@ -18,6 +18,7 @@
   },
   "homepage": "https://autumnchris-header-parser.herokuapp.com",
   "dependencies": {
+    "ejs": "^3.0.1",
     "express": "^4.16.2"
   }
 }
