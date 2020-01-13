@@ -1,6 +1,6 @@
 # Header Parser API
 
-My project for the [Request Header Parser Microservice challenge](https://learn.freecodecamp.org/apis-and-microservices/apis-and-microservices-projects/request-header-parser-microservice) as part of the curriculum for the Apis and Microservices Certification on [Free Code Camp](https://www.freecodecamp.org).
+My project for the [Request Header Parser Microservice challenge](https://learn.freecodecamp.org/apis-and-microservices/apis-and-microservices-projects/request-header-parser-microservice) as part of the curriculum for the Apis and Microservices Certification on [freeCodeCamp](https://www.freecodecamp.org).
 
 ---
 
