@@ -16,17 +16,6 @@ My project for the [Request Header Parser Microservice challenge](https://learn.
 
 View project demo at [https://autumnchris-header-parser.herokuapp.com](https://autumnchris-header-parser.herokuapp.com).
 
-## Installation
-
-```
-$ git clone https://github.com/autumnchris/header-parser-api.git
-$ cd header-parser-api
-$ npm install
-$ npm start
-```
-
-Go to `http://localhost:3000`.
-
 ## Instructions
 
 After forking and cloning, navigate to the repository in your command line and install the NPM packages:
