@@ -1,6 +1,8 @@
 # Header Parser API
 
-My project for the [Request Header Parser Microservice challenge](https://learn.freecodecamp.org/apis-and-microservices/apis-and-microservices-projects/request-header-parser-microservice) as part of the curriculum for the Apis and Microservices Certification on [freeCodeCamp](https://www.freecodecamp.org).
+An Express.js API that gets the user's current IP address, set language, and operating system.
+
+Inspired by the [Request Header Parser Microservice challenge](https://learn.freecodecamp.org/apis-and-microservices/apis-and-microservices-projects/request-header-parser-microservice) as part of the curriculum for the [APIs and Microservices Certification](https://www.freecodecamp.org/learn/apis-and-microservices) on [freeCodeCamp](https://www.freecodecamp.org).
 
 ---
 
