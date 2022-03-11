@@ -16,7 +16,7 @@
   "bugs": {
     "url": "https://github.com/autumnchris/header-parser-api/issues"
   },
-  "homepage": "https://autumnchris-header-parser.herokuapp.com",
+  "homepage": "https://autumnchris-header-parser.herokuapp.com/api",
   "dependencies": {
     "ejs": "^3.0.1",
     "express": "^4.16.2",
