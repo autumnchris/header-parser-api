@@ -113,6 +113,15 @@ code {
 pre {
   background: hsl(270, 100%, 95%);
   border-radius: 4px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   overflow-x: auto;
   padding: 12px;
 }
@@ -122,6 +131,45 @@ pre code {
   border-radius: 0;
   line-height: 1.3;
   white-space: pre;
+}
+
+pre .api-link {
+  white-space: normal;
+  width: 90%;
+  word-break: break-all;
+}
+
+/* Button styles */
+.button,
+.button:visited,
+.button:hover,
+.button:active,
+.button:focus {
+  background: hsl(270, 100%, 85%);
+  border: 0;
+  border-radius: 4px;
+  color: hsl(270, 100%, 25%);
+  cursor: pointer;
+}
+
+.button:hover {
+  background: hsl(270, 100%, 82%);
+  text-decoration: none;
+}
+
+.copy-button,
+.copy-button:visited,
+.copy-button:hover,
+.copy-button:active,
+.copy-button:focus {
+  height: 30px;
+  margin-left: 10px;
+  width: 30px;
+}
+
+.copy-icon {
+  pointer-events: none;
+  vertical-align: text-bottom;
 }
 
 /* MEDIA QUERIES */

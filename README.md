@@ -10,8 +10,10 @@ Inspired by the [Request Header Parser Microservice challenge](https://learn.fre
 * [Express.js](https://expressjs.com)
 * [EJS](https://ejs.co)
 * CSS3
+* JavaScript
 * [Normalize.css](https://necolas.github.io/normalize.css)
 * [Google Fonts](https://fonts.google.com)
+* [Font Awesome](https://fontawesome.com)
 * [nodemon](https://nodemon.io)
 
 ## Demo
