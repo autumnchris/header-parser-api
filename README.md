@@ -8,9 +8,12 @@ Inspired by the [Request Header Parser Microservice challenge](https://learn.fre
 
 ## Built With
 * [Express.js](https://expressjs.com)
+* [Node.js](https://nodejs.org/en)
 * [EJS](https://ejs.co)
+* HTML5
 * CSS3
 * JavaScript
+* Vanilla JS
 * [Normalize.css](https://necolas.github.io/normalize.css)
 * [Google Fonts](https://fonts.google.com)
 * [Font Awesome](https://fontawesome.com)
